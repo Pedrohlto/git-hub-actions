@@ -15,4 +15,4 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: fazendo o build com maven
-        run: mvn package
+        run: mvn test
