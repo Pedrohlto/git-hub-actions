@@ -17,5 +17,6 @@ jobs:
           cache: maven
       - name: testando secrets
         run: echo " testando secrect.... ${{secrets.SECRET_TESTE}}"
+        run: echo " testando secrect.... ${{secrets.INEXISTENTE}}"
       - name: fazendo o build com maven
         run: mvn test
