@@ -17,7 +17,7 @@ class ClasseTesteTest {
         teste.setNome("Nome Completo");
         teste.setIdade(10);
 
-        Assertions.assertEquals("Nome Completo",teste.getApelido());
+        Assertions.assertEquals("Apelido",teste.getApelido());
         Assertions.assertEquals("Nome Completo",teste.getNome());
         Assertions.assertEquals(10,teste.getIdade());
 

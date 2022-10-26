@@ -15,5 +15,7 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
           cache: maven
+      - name: testando secrets
+        run: echo " testando secrect.... ${{secrets.SECRET_TESTE}}"
       - name: fazendo o build com maven
         run: mvn test
