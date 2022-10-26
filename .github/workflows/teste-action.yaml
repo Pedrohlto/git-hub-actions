@@ -15,4 +15,4 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: fazendo o build com maven
-        run: mvn --batch-mode --update-snapshot package
+        run: mvn package
